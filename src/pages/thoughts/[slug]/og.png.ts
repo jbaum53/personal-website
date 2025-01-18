@@ -94,12 +94,16 @@ export async function GET({ props }: Props) {
 		height: 630,
 		fonts: [
 			{
-				name: "Satoshi-Medium",
-				data: SatoshiMedium.buffer,
+				data: Buffer.from(SatoshiMedium.buffer),
+				name: 'Satoshi-Medium',
+				style: 'normal',
+				weight: 500,
 			},
 			{
-				name: "Satoshi-Bold",
-				data: SatoshiBold.buffer,
+				data: Buffer.from(SatoshiBold.buffer),
+				name: 'Satoshi-Bold',
+				style: 'normal',
+				weight: 700,
 			},
 		],
 	});
