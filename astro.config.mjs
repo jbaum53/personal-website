@@ -19,5 +19,5 @@ export default defineConfig({
     }]]
   }), sitemap(), robotsTxt(), icon()],
   site: "https://jbaum53.github.io",
-  base: "/jbaum53.github.io",
+  //base: "/jbaum53.github.io",
 });
