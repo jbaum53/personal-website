@@ -19,7 +19,8 @@ export default defineConfig({
       theme: "everforest-dark",
     }]]
   }), sitemap(), robotsTxt(), icon()],
-  site: "https://baum.dev",
+  site: "https://jbaum53.github.io",
+  base: "/jbaum53.github.io",
   adapter: vercel({
     webAnalytics: {
             enabled: true,

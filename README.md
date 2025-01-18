@@ -14,6 +14,6 @@
 
 </p>
 
-<a href="https://baum.dev" target="_blank" rel="noreferrer noopenner">
-<img src="./public/og.png" alt="baum.dev" width="100%">
+<a href="https://jbaum53.github.io" target="_blank" rel="noreferrer noopenner">
+<img src="./public/og.png" alt="jbaum53.github.io" width="100%">
 </a>

@@ -60,7 +60,7 @@ export async function GET({ props }: Props) {
 				},
 				React.createElement("img", {
 					tw: "w-6 h-6 rounded-full mr-4",
-					src: "https://www.baum.dev/favicon.svg",
+					src: "https://jbaum53.github.io/favicon.svg",
 					alt: "Jeremy Baum",
 				}),
 				React.createElement(
@@ -84,7 +84,7 @@ export async function GET({ props }: Props) {
 						letterSpacing: "-0.05em",
 					},
 				},
-				"baum.dev | thoughts",
+				"jbaum53.github.io | thoughts",
 			),
 		),
 	);
