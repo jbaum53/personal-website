@@ -1,0 +1,37 @@
+[
+	{
+		"id": 1,
+		"name": "resume",
+		"url": "/resume",
+		"target": "_self",
+		"icon": "resume"
+	},
+	{
+		"id": 2,
+		"name": "linkedin",
+		"url": "https://www.linkedin.com/in/jeremy-baum-76874784/",
+		"target": "_blank",
+		"icon": "linkedin"
+	},
+	{
+		"id": 3,
+		"name": "x",
+		"url": "https://x.com/JBAUM_23",
+		"target": "_blank",
+		"icon": "twitter"
+	},
+	{
+		"id": 4,
+		"name": "github",
+		"url": "https://github.com/jbaum53",
+		"target": "_blank",
+		"icon": "github"
+	},
+	{
+		"id": 5,
+		"name": "email",
+		"url": "mailto:jeremy.baum@protonmail.com",
+		"target": "_blank",
+		"icon": "email"
+	}
+]

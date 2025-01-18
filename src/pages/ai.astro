@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { BsStars } from "react-icons/bs";
+import BaumAI from "../components/react/BaumAI.tsx";
+---
+
+<Layout title="Jeremy Baum • AI">
+	<div class="flex items-center justify-between">
+		<h1 class="text-[2.5rem] font-serif tracking-tight text-primary">
+			Baum://ai
+		</h1>
+		<div
+			class="rounded-full bg-emerald-100 px-2.5 py-1.5 text-xs font-medium text-emerald-700">
+			<BsStars className="-mt-0.5 inline-block text-emerald-700" />
+			<span>just for fun!</span>
+		</div>
+	</div>
+
+	<h2 class="text-base font-medium tracking-tight text-title">
+		Ask BaumAI anything about my past work, past projects, or my interests!
+	</h2>
+	<section class="pt-4">
+		<BaumAI client:load />
+	</section>
+</Layout>

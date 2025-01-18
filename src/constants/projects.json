@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"title": "IARPA-SMART Program",
+		"description": "SMART automates broad-area search of multi-source satellite imagery to detect, monitor, and characterize the progression of anthropogenic or natural processes",
+		"link": "https://www.iarpa.gov/index.php/research-programs/smart"
+	},
+	{
+		"id": 2,
+		"title": "Accenture Insights Platform",
+		"description": "A FedRAMP-high PaaS for deploying open source data science software",
+		"link": "https://www.accenture.com/us-en/services/applied-intelligence/aip-plus-index"
+	}
+]

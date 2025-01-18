@@ -1,0 +1,61 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SpotifyNowPlaying from "../components/react/Spotify.tsx";
+---
+
+<Layout title="Jeremy Baum • About">
+	<h1 class="text-[2.5rem] font-serif tracking-tight text-primary">About</h1>
+
+	<p class="pt-4 text-sm font-normal text-body">
+		Basically, it&apos;s a fancy word that I&apos;m using to describe this
+		website. This site is crafted with <span class="text-black">Astro</span> and
+		<span class="text-black">React</span>, hosted on <span class="text-black"
+			>GitHub Pages</span
+		>.
+	</p>
+
+
+
+	<section>
+		<h2 class="pt-8 text-base font-medium tracking-tight text-title">
+			Software I Love
+		</h2>
+		<ul class="list-disc px-4 pt-4 text-sm text-body">
+			<li>
+				<a href="https://spotify.com" class="underline-offset-4 transition duration-150 ease-in-out md:hover:text-primary md:hover:underline">
+					<span class="text-black">Spotify</span>
+				</a> — Who doesn't love a good song?
+			</li>
+			<li>
+				<a href="https://www.mowglii.com/itsycal/" class="underline-offset-4 transition duration-150 ease-in-out md:hover:text-primary md:hover:underline">
+					<span class="text-black">ItsyCal</span>
+				</a> — My favorite calendar app
+			</li>
+			<li>
+				<a href="https://notion.so" class="underline-offset-4 transition duration-150 ease-in-out md:hover:text-primary md:hover:underline">
+					<span class="text-black">Notion</span>
+				</a> — Keeping it all running smooth
+			</li>
+			<li>
+				<a href="https://code.visualstudio.com" class="underline-offset-4 transition duration-150 ease-in-out md:hover:text-primary md:hover:underline">
+					<span class="text-black">VSCode</span>
+				</a> — Though, Cursor is giving it a good run for it's money these days
+			</li>
+			<li>
+				<a href="https://iterm2.com" class="underline-offset-4 transition duration-150 ease-in-out md:hover:text-primary md:hover:underline">
+					<span class="text-black">iTerm2</span>
+				</a> — The standard bearer
+			</li>
+		</ul>
+		<p class="pt-2 text-sm">and many more...</p>
+	</section>
+
+	<section>
+		<h2 class="pt-8 text-base font-medium tracking-tight text-title">
+			Now Playing
+		</h2>
+		<div class="w-fit pt-4">
+			<SpotifyNowPlaying client:visible />
+		</div>
+	</section>
+</Layout>

@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { LiaDownloadSolid } from "react-icons/lia";
+---
+
+<Layout title="Jeremy Baum • Resume">
+	<h1 class="text-[2rem] font-bold tracking-tight text-primary">Resume</h1>
+	<h2 class="text-base font-medium tracking-tight text-title">
+		here&apos;s a brief overview of my professional experience
+	</h2>
+	<iframe
+		src="/docs/Jeremy_Baum_Resume.pdf"
+		width="100%"
+		height="600px"
+		class="pt-4"
+		title="Jeremy's Resume"></iframe>
+
+	<p class="pt-4 text-sm font-normal">
+		If you prefer a more traditional format, you can download the pdf version of
+		my resume by clicking the button below.
+	</p>
+
+	<a
+		href="/docs/Jeremy_Baum_Resume.pdf"
+		download="Jeremy_Baum_Resume.pdf"
+		class="mt-4 inline-block rounded-full bg-primary px-4 py-2 text-xs text-bgColor transition duration-300 ease-in-out md:hover:scale-95 md:hover:bg-primary/90">
+		<LiaDownloadSolid className="-mt-0.5 inline-block" />
+		<span>Download PDF</span>
+	</a>
+</Layout>
