@@ -19,7 +19,7 @@ export default defineConfig({
       theme: "everforest-dark",
     }]]
   }), sitemap(), robotsTxt(), icon()],
-  site: "https://lakshb.dev",
+  site: "https://baum.dev",
   adapter: vercel({
     webAnalytics: {
             enabled: true,

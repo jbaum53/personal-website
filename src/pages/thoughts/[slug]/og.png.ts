@@ -60,8 +60,8 @@ export async function GET({ props }: Props) {
 				},
 				React.createElement("img", {
 					tw: "w-6 h-6 rounded-full mr-4",
-					src: "https://www.lakshb.dev/favicon.svg",
-					alt: "Lakshay Bhushan",
+					src: "https://www.baum.dev/favicon.svg",
+					alt: "Jeremy Baum",
 				}),
 				React.createElement(
 					"div",
@@ -72,7 +72,7 @@ export async function GET({ props }: Props) {
 							letterSpacing: "-0.05em",
 						},
 					},
-					"Lakshay Bhushan",
+					"Jeremy Baum",
 				),
 			),
 			React.createElement(
@@ -84,7 +84,7 @@ export async function GET({ props }: Props) {
 						letterSpacing: "-0.05em",
 					},
 				},
-				"lakshb.dev | thoughts",
+				"baum.dev | thoughts",
 			),
 		),
 	);

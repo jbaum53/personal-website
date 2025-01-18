@@ -1,4 +1,4 @@
-<h1 align="center">lakshb.dev</h1>
+<h1 align="center">Jeremy Baum</h1>
 
 <p align="center">
 
@@ -14,6 +14,6 @@
 
 </p>
 
-<a href="https://lakshb.dev" target="_blank" rel="noreferrer noopenner">
-<img src="./public/og.png" alt="lakshb.dev" width="100%">
+<a href="https://baum.dev" target="_blank" rel="noreferrer noopenner">
+<img src="./public/og.png" alt="baum.dev" width="100%">
 </a>
