@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # I don't want text files
 *.txt
+
+# Remove local dev files
+.vscode
